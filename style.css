@@ -17,5 +17,10 @@ h1{
 }
 h1:hover{
     color: aquamarine;
-    
+    user-select: text;
+
+}
+h1::selection{
+    color: blue;
+    background-color: brown;
 }
