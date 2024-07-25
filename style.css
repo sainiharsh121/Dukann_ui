@@ -40,16 +40,34 @@ html body{
 .smallsidebar{
     width: 14vw;
     height: 79vh;
-    background-color: #e49090;
+    z-index: 2;
+    /* background-color: #e49090; */
 }
 .small{
+    width: 80%;
+    align-items: center;
+    background-color: #aa5959;
+    border-radius: 5px;
+    padding: 0.4vw 1vw;
+    margin: 1vw 0.4vw;
+    cursor: pointer;
+}
+.small:hover{
+    background-color: grey;
+    opacity: 7;
+    color: white;
 
+
+}
+.ri-home-4-line{
+   
 }
 .container1{
     width: calc(100vw - 14vw);
     height: 100vh;
     background-color: aquamarine;
     margin-left: 14vw;
+    padding: 0 1vw;
 }
 header{
     width: 100%;
@@ -158,7 +176,7 @@ button{
     gap: 1vw;
 }
 .leftmiddle{
-    width: 30%;
+    width: 32%;
     height: 20vh;
     /* margin: 0px 10px 0px 30px; */
     border-radius: 4px;
@@ -226,11 +244,22 @@ button{
     font-size: 1vw;
 }
 .Mmiddle{
-    width: 30%;
+    width: 32%;
     height: 18vh;
     background-color: #74b4da;
 }
 .top{
+    width: 100%;
+    height: 9vh;
+    
+   
+    background-color: #93da74;
+}
+.top h5{
+    padding: 1vw;
+    font-size: 1.2vw;
+}
+.last{
 
 }
 #rightmiddle{
@@ -242,12 +271,16 @@ button{
     width: 100%;
     height: 10vw;
     background-color: rgb(175, 220, 130);
+    
 
 }
 .M1{
     width: 100%;
     height: 5vw;
     background-color: #74b4da;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 .M2{
     width: 100%;
